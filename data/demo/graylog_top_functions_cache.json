@@ -1,0 +1,21 @@
+﻿{
+  "version": 1,
+  "entries": {
+    "demo|stream|30|m10000|t10": {
+      "built_at": "2026-07-17T06:00:00+00:00",
+      "days": 30,
+      "stream_label": "Demo Statistik",
+      "messages_fetched": 1200,
+      "events_total": 1198,
+      "module_field": "event",
+      "chunk_capped": false,
+      "top_overall": [
+        {"rank": 1, "label": "module.gis.query.desktop", "calls": 420, "mapping_id": "geoclient_basic"},
+        {"rank": 2, "label": "module.gis.query.mobile", "calls": 180, "mapping_id": "mapapp_demo"},
+        {"rank": 3, "label": "server.login.desktop", "calls": 95, "mapping_id": "geoclient_basic"},
+        {"rank": 4, "label": "module.gis.edit.update.desktop", "calls": 72, "mapping_id": "geoclient_basic"},
+        {"rank": 5, "label": "module.gis.export.desktop", "calls": 48, "mapping_id": "export_module"}
+      ]
+    }
+  }
+}

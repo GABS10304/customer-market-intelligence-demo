@@ -1,0 +1,17 @@
+streamlit
+pandas
+beautifulsoup4
+lxml
+pydantic
+langchain-ollama
+langchain-core
+langchain-community
+langchain-openai
+chromadb
+chonkie[semantic]>=1.6.0
+google-cloud-bigquery
+python-dotenv
+plotly
+openpyxl
+requests
+pytest-cov

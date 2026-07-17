@@ -1,0 +1,11 @@
+{
+  "version": "1.0-demo",
+  "description": "Fiktive Graylog-Events für Demo (keine Produktions-dialogNames).",
+  "event_to_mapping_id": {
+    "module.gis.query.desktop": "geoclient_basic",
+    "module.gis.query.mobile": "map_app_demo",
+    "server.login.desktop": "geoclient_basic",
+    "module.gis.edit.update.desktop": "geoclient_basic",
+    "module.gis.export.desktop": "export_module"
+  }
+}

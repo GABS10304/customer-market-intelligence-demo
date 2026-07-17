@@ -1,0 +1,720 @@
+{
+  "version": "1.0",
+  "description": "Seed-Mapping: Top-Umsatz ERP-Artikel → Hotline-Cluster (Ordner___Modul). Manuell pflegbar.",
+  "entries": [
+    {
+      "id": "datenpflege_geobasis_rgz",
+      "label": "Datenpflegepaket Geobasis / Fachdienstdaten RGZ",
+      "artikel_contains_all": [
+        "datenpflegepaket",
+        "geobasis",
+        "fachdienstdaten"
+      ],
+      "artikel_excludes": [
+        "alkis"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\RGZ Allgemein - Datenintegration",
+        "riwaGisData\\Datenabgabe - Geodaten",
+        "riwaGisData\\Datenabgabe - Allgemein",
+        "riwaGisData\\RGZ Allgemein - Allgemein"
+      ],
+      "notes": "Wartungs-/Datenpflege-Dienstleistung RGZ"
+    },
+    {
+      "id": "datenpflege_alkis",
+      "label": "Datenpflegepaket Geobasis + ALKIS",
+      "artikel_contains_all": [
+        "datenpflegepaket",
+        "alkis"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - ALKIS Gemeinde",
+        "riwaGisData\\RGZ Allgemein - Datenintegration",
+        "riwaGisData\\Datenabgabe - Geodaten"
+      ],
+      "notes": "ALKIS-Datenpflege"
+    },
+    {
+      "id": "landkreis_gis",
+      "label": "Landkreis-GIS (Paketlizenz)",
+      "artikel_prefix": "Landkreis-GIS",
+      "ranking_aliases": [
+        "Modul Ortsinfo",
+        "Modul Hausnummernverzeichnis",
+        "Modul Event-Manager"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\RGZ Client - Allgemein",
+        "riwaGisData\\RGZ Allgemein - Allgemein",
+        "riwaGisData\\RGZ Client - Grundfunktionen",
+        "riwaGisData\\RGZ Client - externer Nutzer",
+        "riwaGisData\\Datenabgabe - externer Nutzer"
+      ],
+      "notes": "Kundenindividuelles LRA-Paket — Plattform (ohne KartenApp, eigenes Mapping) · Bulk-map (16 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+      "cluster_aliases": [
+        "externer Nutzer"
+      ]
+    },
+    {
+      "id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "artikel_contains_all": [
+        "planauskunft"
+      ],
+      "ticket_clusters": [
+        "otsBauData\\otsBauAllgAnfragen",
+        "riwaGisData\\Modul - Bebauungsplan (bp)",
+        "riwaGisData\\Modul - Bauantragsverwaltung (bv)",
+        "otsBauData\\G2VB",
+        "otsBauData\\onlineBeteiligungen",
+        "otsBauData\\Dokumentenverwaltung",
+        "otsBauData\\fragenZuVertragLeistungenAngebot",
+        "otsBauData\\Schnittstellen",
+        "otsBauData\\installationUndTechnik",
+        "otsBauData\\edialogdesigner"
+      ],
+      "notes": "otsBau / Bau-Planauskunft · Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (4 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+      "cluster_aliases": [
+        "G2VB",
+        "onlineBeteiligungen",
+        "Dokumentenverwaltung",
+        "fragenZuVertragLeistungenAngebot",
+        "Schnittstellen",
+        "installationUndTechnik",
+        "edialogdesigner"
+      ]
+    },
+    {
+      "id": "modul_bebauungsplaene",
+      "label": "Modul Bebauungspläne",
+      "artikel_contains_all": [
+        "modul",
+        "bebauungs"
+      ],
+      "ranking_aliases": [
+        "Modul Bebauungspläne",
+        "Modul Bebauungspläne - Geltungsbereiche",
+        "Modul Flächennutzungsplan",
+        "Modul Flächennutzungsplan (nur bei Vektorplänen)"
+      ],
+      "cluster_aliases": [
+        "Bebauungspläne / bauleitplan",
+        "Bebauungspläne",
+        "bauleitplan",
+        "Bauantrag, Bebauungspläne, FPläne etc.",
+        "Flächennutzungsplan (fnp)"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Bebauungsplan (bp)",
+        "riwaGisData\\Modul - Flächennutzungsplan (fnp)"
+      ],
+      "notes": "Bebauungspläne / Bauleitplan — Feldbesuche Service-Kritik, Feature-Wünsche · Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "artikel_prefix": "RGZ -",
+      "ranking_aliases": [
+        "RGZ - Basic / Plus",
+        "Modul RGZ web-viewer"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\RGZ Client - Allgemein",
+        "riwaGisData\\RGZ Client - Grundfunktionen",
+        "riwaGisData\\RGZ Client - Installation",
+        "riwaGisData\\RGZ Allgemein - Allgemein",
+        "riwaGisData\\RGZ Client - Datenexport",
+        "riwaGisData\\RGZ Client - Autor",
+        "riwaGisData\\RGZ Client - Zeichenfunktionen",
+        "riwaGisData\\RGZ Client - Serverfehler",
+        "riwaGisData\\RGZ Client - Aktivierungscode"
+      ],
+      "notes": "Plattform-Basislizenz · Bulk-map (22 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (20 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (12 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+      "cluster_aliases": [
+        "Datenexport",
+        "Autor",
+        "Zeichenfunktionen",
+        "Serverfehler",
+        "Aktivierungscode"
+      ]
+    },
+    {
+      "id": "modul_bauav",
+      "label": "Modul Bauantragsverwaltung",
+      "artikel_contains_all": [
+        "bauantragsverwaltung"
+      ],
+      "ranking_aliases": [
+        "Modul Bauantragsverwaltung",
+        "Modul Bauantragsverwaltung (BauAV)"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Bauantragsverwaltung (bv)",
+        "otsBauData\\digitalerBauantrag (eAV - Importer)",
+        "BauAV"
+      ],
+      "cluster_aliases": [
+        "Importer)",
+        "BauAV"
+      ],
+      "notes": "Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "modul_strassen",
+      "label": "Modul Straßen-/Bestandsverzeichnis",
+      "artikel_contains_all": [
+        "stra",
+        "bestandsverzeichnis"
+      ],
+      "ranking_aliases": [
+        "Modul Straßen-/Bestandsverzeichnis",
+        "Modul Straßenbestandsverzeichnis"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Straßen- Bestandsverzeichnis (swr)",
+        "riwaGisData\\Modul - Straßenkontrolle (stk)"
+      ],
+      "cluster_aliases": [
+        "Straßenkontrolle (stk)"
+      ],
+      "notes": "Bulk-map (4 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "modul_verkehr",
+      "label": "Modul Verkehr",
+      "artikel_contains_all": [
+        "modul",
+        "verkehr"
+      ],
+      "artikel_excludes": [
+        "bestandsverzeichnis",
+        "straßen"
+      ],
+      "cluster_aliases": [
+        "Verkehr",
+        "verkehr",
+        "Modul Verkehr"
+      ],
+      "ranking_aliases": [
+        "Modul Verkehr"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Verkehr (vk)"
+      ],
+      "notes": "Verkehr (vk) — inkl. Feldbesuche mit Cluster «Verkehr»"
+    },
+    {
+      "id": "modul_baeume",
+      "label": "Modul Bäume",
+      "artikel_contains_all": [
+        "modul",
+        "baum"
+      ],
+      "artikel_excludes": [
+        "baumkontroll",
+        "app"
+      ],
+      "ranking_aliases": [
+        "Modul Bäume",
+        "Modul Bäume - Rechtemanagement"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Baum (ba)"
+      ]
+    },
+    {
+      "id": "baumkontroll_app",
+      "label": "Baumkontroll-App",
+      "artikel_contains_all": [
+        "baumkontroll"
+      ],
+      "cluster_aliases": [
+        "Baumkontroll-App",
+        "Baumkontroll App"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Apps - BaumkontrollApp",
+        "riwaGisData\\Modul - Baum (ba)"
+      ]
+    },
+    {
+      "id": "modul_vermessungsdaten",
+      "label": "Modul Vermessungsdaten",
+      "artikel_contains_all": [
+        "vermessungsdaten"
+      ],
+      "ranking_aliases": [
+        "Modul Vermessungsdaten"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Apps - VermessungsApp",
+        "riwaGisData\\Modul - Vermessungsdaten (vm)",
+        "Vermessungsdaten/-App"
+      ],
+      "notes": "Vermessungs-App / Vermessungsdaten-Modul · Bulk-map (5 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+      "cluster_aliases": [
+        "Vermessungsdaten (vm)",
+        "Vermessungsdaten/-App"
+      ]
+    },
+    {
+      "id": "karten_app",
+      "label": "KartenApp",
+      "artikel_contains_all": [
+        "karten"
+      ],
+      "artikel_excludes": [
+        "baumkontroll",
+        "spielplatz"
+      ],
+      "ranking_aliases": [
+        "KartenApp",
+        "Modul KartenApp"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Apps - KartenApp",
+        "riwaGisData\\Apps - Allgemein"
+      ],
+      "notes": "KartenApp und Erweiterungslizenzen (Karten-App, KartenApp, …)"
+    },
+    {
+      "id": "basisentwicklung_querschnitt",
+      "label": "Basisentwicklung / Querschnitt",
+      "cluster_aliases": [
+        "Basisentwicklung",
+        "Generell",
+        "Allgemein",
+        "Basic",
+        "Einige Kunden",
+        "RGZ Autor"
+      ],
+      "ticket_clusters": [],
+      "notes": "Modulübergreifende Plattform-Wünsche (Berichte, Ebenen, RGZ-Basis, …)"
+    },
+    {
+      "id": "regisafe_eakte",
+      "label": "RegiSafe / E-Akte",
+      "cluster_aliases": [
+        "eAKte zu RegiSafe",
+        "eAkte zu RegiSafe",
+        "e-Akte zu RegiSafe",
+        "RegiSafe",
+        "E-Akte KIC",
+        "eAkte zu KIC",
+        "eAkte"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\eAkte",
+        "otsBauData\\eAkte"
+      ],
+      "notes": "Interesse/Wunsch E-Akte-Anbindung RegiSafe oder KIC (Feldbesuche) · Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "schnittstelle_prosoz",
+      "label": "BVL Schnittstelle Prosoz",
+      "cluster_aliases": [
+        "BVL Schnittstelle Prosoz",
+        "BVL Schnittstelle PROSOZ",
+        "Schnittstelle Prosoz"
+      ],
+      "ticket_clusters": [],
+      "notes": "BVL/Prosoz-Schnittstelle — fehlende Felder, Datenlücken (Feldbesuche)"
+    },
+    {
+      "id": "schnittstelle_boll",
+      "label": "BVL Schnittstelle BOLL",
+      "cluster_aliases": [
+        "BVL Schnittstelle BOLL",
+        "BVL Schnittstelle Boll",
+        "Schnittstelle zum dig. Bauantrag Boll"
+      ],
+      "ticket_clusters": [],
+      "notes": "BOLL-Schnittstelle digitale Bauanträge"
+    },
+    {
+      "id": "schnittstelle_gekos",
+      "label": "Schnittstelle Gekos",
+      "cluster_aliases": [
+        "Schnittstelle Gekos",
+        "Schnittstelle GEKOS"
+      ],
+      "ticket_clusters": [],
+      "notes": "Gekos-Schnittstelle BVL/Bau"
+    },
+    {
+      "id": "kanal_app",
+      "label": "Kanal-App",
+      "cluster_aliases": [
+        "Kanal-App",
+        "Kanal App",
+        "Kanalapp",
+        "SchachtkontrollApp"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Apps - SchachtkontrollApp"
+      ],
+      "notes": "Kanal-App / Endhydranten (Feldbesuche) · Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "geonotizen",
+      "label": "Geonotizen",
+      "cluster_aliases": [
+        "Geonotizen",
+        "Geonotiz",
+        "Geonotizen (gn)"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Geonotizen (gn)"
+      ],
+      "notes": "Geonotizen — Dokumente/Bilder nachträglich ergänzen (Feldbesuche) · Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "modul_forst",
+      "label": "Modul Forst",
+      "cluster_aliases": [
+        "Forst",
+        "Modul Forst"
+      ],
+      "ranking_aliases": [
+        "Modul Forst"
+      ],
+      "ticket_clusters": [],
+      "notes": "Forst-Modul — Praxisnähe, Funktionsumfang (Feldbesuche)"
+    },
+    {
+      "id": "vm_wasser",
+      "label": "VM/Wasser",
+      "cluster_aliases": [
+        "VM/Wasser",
+        "VM / Wasser",
+        "VM-Wasser"
+      ],
+      "ticket_clusters": [],
+      "notes": "Vermessungsdaten ↔ Edit-Modul Wasser/Schieber (Feldbesuche)"
+    },
+    {
+      "id": "e_akte_kic",
+      "label": "E-Akte KIC",
+      "cluster_aliases": [
+        "E-Akte KIC",
+        "eAkte zu KIC",
+        "e-Akte KIC"
+      ],
+      "ticket_clusters": [],
+      "notes": "E-Akte KIC — Register-Anbindung (Feldbesuche)"
+    },
+    {
+      "id": "ki_assistenz",
+      "label": "KI / Assistenz & Auswertungen",
+      "cluster_aliases": [
+        "KI",
+        "KI Funktionen"
+      ],
+      "ticket_clusters": [
+        "riwaGisData\\KI Funktionen"
+      ],
+      "notes": "KI-Auswertungen, Compliance-Erinnerungen (Feldbesuche) · Bulk-map (16 Tickets) — Cluster an bestehenden Eintrag"
+    },
+    {
+      "id": "tera_rgz",
+      "label": "TERA & RGZ",
+      "cluster_aliases": [
+        "TERA & RGZ"
+      ],
+      "ticket_clusters": [],
+      "notes": "TERA-Module GEB/RES/VER ↔ RGZ Schnittstelle (Feldbesuche)"
+    },
+    {
+      "id": "modul_kanal",
+      "label": "Modul Kanal",
+      "ranking_aliases": [
+        "Modul Kanal",
+        "Modul Kanal Autor",
+        "Modul Kanal Autor - Barthauer Struktur",
+        "Modul Kanal - Barthauer Struktur",
+        "Modul WEB-Kanal"
+      ],
+      "notes": "Kanal-Module inkl. Barthauer-Struktur (Modulranking) · Bulk-map (17 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Kanal Barthauer (awb)",
+        "riwaGisData\\Modul - Kanal CWSM (awc)"
+      ],
+      "cluster_aliases": [
+        "Kanal Barthauer (awb)",
+        "Kanal CWSM (awc)"
+      ]
+    },
+    {
+      "id": "modul_wasser",
+      "label": "Modul Wasser / Wasser Edit",
+      "ranking_aliases": [
+        "Modul Wasser Edit",
+        "Modul Wasser",
+        "Modul Wasser Autor",
+        "Modul WEB-Wasser",
+        "Modul Wasserbuch"
+      ],
+      "cluster_aliases": [
+        "VM/Wasser",
+        "Wasser (wam)"
+      ],
+      "notes": "Wasser-Edit/Autor — VM/Wasser Feldbesuche · Bulk-map (17 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Wasser (wam)"
+      ]
+    },
+    {
+      "id": "modul_spielplatz",
+      "label": "Modul Spielplatz",
+      "ranking_aliases": [
+        "Modul Spielplatz"
+      ],
+      "notes": "Spielplatz-Modul (Modulranking) · Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag · Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Apps - SpielplatzkontrollApp",
+        "riwaGisData\\Modul - Spielplatz (sp)"
+      ],
+      "cluster_aliases": [
+        "SpielplatzkontrollApp",
+        "Spielplatz (sp)"
+      ]
+    },
+    {
+      "id": "modul_friedhof",
+      "label": "Modul Friedhof",
+      "ranking_aliases": [
+        "Modul Friedhof bis 1.000 Grabstellen",
+        "Modul Friedhof bis 2.500 Grabstellen",
+        "Modul Friedhof bis 5.000 Grabstellen",
+        "Modul Friedhof - Schnittstelle zu Prosiris",
+        "Modul Friedhof - Schnittstelle zur Finanzsoftware"
+      ],
+      "notes": "Friedhof-Staffelungen (Modulranking) · Top-unmapped (55 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Friedhof (fh)"
+      ],
+      "cluster_aliases": [
+        "Friedhof (fh)"
+      ]
+    },
+    {
+      "id": "modul_gruenflaechen",
+      "label": "Modul Grünflächen",
+      "ranking_aliases": [
+        "Modul Grünflächen"
+      ],
+      "cluster_aliases": [
+        "Grünflächen",
+        "Grünflächen (gf)"
+      ],
+      "notes": "Grünflächen — Feldbesuche UX-Kritik · Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Grünflächen (gf)"
+      ]
+    },
+    {
+      "id": "modul_versorgungsleitungen",
+      "label": "Modul Versorgungsleitungen",
+      "ranking_aliases": [
+        "Modul Versorgungsleitungen",
+        "Modul Strom",
+        "Modul Strom Edit",
+        "Modul Gas",
+        "Modul Gas Edit",
+        "Modul Fernwärme",
+        "Modul Fernwärme Edit",
+        "Modul WEB-Gas",
+        "Modul WEB-Strom",
+        "Modul WEB Fernwärme",
+        "Modul Steuerkabel"
+      ],
+      "cluster_aliases": [
+        "Versorgungsleitungen / Modulbaukasten Versorgung"
+      ],
+      "notes": "Versorgungsleitungen / Medien (Feldbesuche + Ranking)"
+    },
+    {
+      "id": "modul_finanz",
+      "label": "Finanzmodul",
+      "ranking_aliases": [
+        "Finanzmodul"
+      ],
+      "notes": "Finanzmodul (Modulranking) · Bulk-map (5 Tickets) — Cluster an bestehenden Eintrag",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Finanzen (fi)"
+      ],
+      "cluster_aliases": [
+        "Finanzen (fi)"
+      ]
+    },
+    {
+      "id": "riwa_go_planauskunft_ext",
+      "label": "Planauskunft / WEB-Planauskunft",
+      "ranking_aliases": [
+        "Modul Erweiterung WEB-Planauskunft",
+        "Modul RGZ web-viewer"
+      ],
+      "notes": "WEB-Planauskunft-Erweiterungen"
+    },
+    {
+      "id": "modul_benutzerverwaltung",
+      "label": "Benutzerverwaltung",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Benutzerverwaltung"
+      ],
+      "notes": "Top-unmapped (34 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Benutzerverwaltung"
+      ],
+      "artikel_contains_any": [
+        "benutzerverwaltung"
+      ]
+    },
+    {
+      "id": "modul_passt_in_keine_andere_kategorie",
+      "label": "passt in keine andere Kategorie",
+      "ticket_clusters": [
+        "riwaGisData\\Sonstiges - passt in keine andere Kategorie",
+        "riwaGisData\\Modul - nicht aufgelistet"
+      ],
+      "notes": "Top-unmapped (33 Tickets) — neuer Seed-Eintrag · Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag",
+      "cluster_aliases": [
+        "passt in keine andere Kategorie",
+        "nicht aufgelistet"
+      ]
+    },
+    {
+      "id": "modul_beiträge_er",
+      "label": "Beiträge (er)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Beiträge (er)"
+      ],
+      "notes": "Bulk-map (30 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Beiträge (er)"
+      ]
+    },
+    {
+      "id": "modul_3d",
+      "label": "3D",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - 3D"
+      ],
+      "notes": "Bulk-map (9 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "3D"
+      ]
+    },
+    {
+      "id": "modul_wegeinfrastruktur_ww",
+      "label": "Wegeinfrastruktur (ww)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Wegeinfrastruktur (ww)"
+      ],
+      "notes": "Bulk-map (6 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Wegeinfrastruktur (ww)"
+      ]
+    },
+    {
+      "id": "modul_brücken_br",
+      "label": "Brücken (br)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Brücken (br)"
+      ],
+      "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Brücken (br)"
+      ]
+    },
+    {
+      "id": "modul_vermieten_verpachten_vp",
+      "label": "Vermieten Verpachten (vp)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Vermieten Verpachten (vp)"
+      ],
+      "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Vermieten Verpachten (vp)"
+      ]
+    },
+    {
+      "id": "modul_ppm_hardware",
+      "label": "PPM Hardware",
+      "ticket_clusters": [
+        "riwaGisData\\PPM Hardware"
+      ],
+      "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "PPM Hardware"
+      ]
+    },
+    {
+      "id": "modul_projektplan_umstieg",
+      "label": "Projektplan Umstieg",
+      "ticket_clusters": [
+        "Projektplan Umstieg"
+      ],
+      "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Projektplan Umstieg"
+      ]
+    },
+    {
+      "id": "modul_appkit",
+      "label": "AppKIT",
+      "ticket_clusters": [
+        "riwaGisData\\Apps - AppKIT"
+      ],
+      "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "AppKIT"
+      ]
+    },
+    {
+      "id": "modul_straßenkontrollapp",
+      "label": "StraßenkontrollApp",
+      "ticket_clusters": [
+        "riwaGisData\\Apps - StraßenkontrollApp"
+      ],
+      "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "StraßenkontrollApp"
+      ]
+    },
+    {
+      "id": "modul_hausnummernverzeichnis_hv",
+      "label": "Hausnummernverzeichnis (hv)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Hausnummernverzeichnis (hv)"
+      ],
+      "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Hausnummernverzeichnis (hv)"
+      ]
+    },
+    {
+      "id": "modul_straßen_und_winterdienst_wd",
+      "label": "Straßen- und Winterdienst (wd)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Straßen- und Winterdienst (wd)"
+      ],
+      "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Straßen- und Winterdienst (wd)"
+      ]
+    },
+    {
+      "id": "modul_ökokonto_ok",
+      "label": "Ökokonto (ok)",
+      "ticket_clusters": [
+        "riwaGisData\\Modul - Ökokonto (ok)"
+      ],
+      "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+      "cluster_aliases": [
+        "Ökokonto (ok)"
+      ]
+    }
+  ]
+}

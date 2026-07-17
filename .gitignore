@@ -1,0 +1,83 @@
+ragenv/
+venv/
+.env
+.env.local
+.env.*.local
+!.env.example
+__pycache__/
+*.pyc
+pm_brain/
+
+# Secrets & Credentials
+gcp-key.json
+*.pem
+*.key
+
+# Office / Excel (Rohdaten)
+*.xlsx
+*.xls
+~$*.xlsx
+~$*.xls
+
+# CSV — alle Kunden-/Sales-Daten
+*.csv
+
+# Generierte Reports (können Kundenhinweise enthalten)
+Sales_Strategie_Report.md
+Finaler_PM_Report.md
+Finaler_PM_Report_Support.md
+Finaler_PM_Report_Umfragen.md
+
+# Sales aggregiert (Root)
+Sales_Product_Penetration.csv
+Sales_ICP_Strategie_Daten.csv
+Rohe_Sales_Daten.xlsx
+Rohe_Sales_Daten.csv
+
+# Runtime / Cache / Index (lokal regenerieren)
+data/.registry.json
+data/catalog.json
+data/workspace_snapshot.json
+data/rag_index/
+data/rag_index_meta.json
+data/uploads/
+data/processed/
+data/sales_product_penetration.csv
+data/surveys_nps.csv
+data/tickets_backlog.csv
+data/field_visits_backlog.csv
+
+# Rohdaten-Inbox (alle Unterordner)
+data/inbox/
+data/html/
+data/Tickets_neu/
+
+# Legacy Root-CSVs
+HTML_Tickets_Fertig_fuer_Copilot.csv
+Schnelles_PM_Backlog.csv
+field_visits_backlog.csv
+tickets_*.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+*Kopie.bat
+* - Kopie.*
+
+# Demo-Fixtures im Repo erlauben
+!data/demo/
+!data/demo/**
+
+# Embeddings / lokaler Vector-Store
+vectordb/
+
+# Graylog-Produktionscache (echte Volumina)
+data/graylog_top_functions_cache.json
+
+# Sensitive Analyse-Notizen (echte Kundennamen)
+Analyse*.txt
+_misalignment*.py
+.coverage

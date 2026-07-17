@@ -1,0 +1,56 @@
+{
+  "version": "1.0-demo",
+  "description": "Demo-Mapping — fiktive GeoSuite/GeoClient-Module (keine echten Produktnamen).",
+  "entries": [
+    {
+      "id": "traffic_module",
+      "label": "Traffic Module (GeoSuite)",
+      "artikel_exact": ["Traffic Module"],
+      "ticket_clusters": [
+        "geoSuiteData\\Traffic Module"
+      ],
+      "notes": "Demo-Verkehrsmodul"
+    },
+    {
+      "id": "zoning_module",
+      "label": "Zoning Module (GeoSuite)",
+      "artikel_exact": ["Zoning Module"],
+      "ticket_clusters": [
+        "geoSuiteData\\Zoning Module"
+      ],
+      "notes": "Demo-Bebauungsplanmodul"
+    },
+    {
+      "id": "geoclient_login",
+      "label": "GeoClient — Login",
+      "ticket_clusters": [
+        "geoSuiteData\\GeoClient - Login"
+      ],
+      "notes": "Demo-Client-Anmeldung"
+    },
+    {
+      "id": "export_module",
+      "label": "Export Module (GeoSuite)",
+      "ticket_clusters": [
+        "geoSuiteData\\Export Module"
+      ],
+      "notes": "Demo-Exportmodul"
+    },
+    {
+      "id": "mapapp_demo",
+      "label": "MapApp Demo",
+      "artikel_exact": ["MapApp Demo"],
+      "ticket_clusters": [],
+      "notes": "Demo-Mobile-App"
+    },
+    {
+      "id": "geoclient_basic",
+      "label": "GeoClient Basic",
+      "ranking_aliases": ["GeoClient Basic"],
+      "ticket_clusters": [
+        "geoSuiteData\\GeoClient - Login"
+      ],
+      "notes": "Demo-Graylog-Mapping"
+    }
+  ]
+}

@@ -1,0 +1,5 @@
+# Pipeline-Artefakte (aus Original-Inbox / Tickets_neu erzeugt)
+surveys_nps.csv
+tickets_backlog.csv
+field_visits_backlog.csv
+survey_dedup_offsets.json

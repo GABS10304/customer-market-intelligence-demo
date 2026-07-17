@@ -1,0 +1,38 @@
+{
+  "description": "Hotline-Cluster (teraWinData Leaf) → TERA Basis-Produktcode (TERA-RES, nicht TERA-RES-Technik)",
+  "cluster_to_tera_base": {
+    "friedhofsverwaltung": "TERA-FRI",
+    "beitragswesen": "TERA-BEI",
+    "bauhofverwaltung  ressourcenmanager": "TERA-RES",
+    "ressourcenmanager": "TERA-RES",
+    "gebaeudemanager": "TERA-GEBÄUDE",
+    "mietundpachtobjekte": "TERA-MIE",
+    "mietundpacht": "TERA-MIE",
+    "auskunftsmoduleexpobjdat": "TERA-EXPERT",
+    "teramobil": "TERAmobil",
+    "belegungsplan": "TERA-BEL",
+    "vertragsmanager": "TERA-VERTRAG",
+    "liegenschaftsverwaltung": "TERA-LIE",
+    "teraakte": "TERA-DMS",
+    "eakte": "TERA-DMS",
+    "alkis": "TERA-GEODATENIMPORT",
+    "adressabgleichfisewobaybis": "TERA-BAYBIS",
+    "sonstiges": "TERA-ALL"
+  },
+  "keyword_rules": [
+    {"contains": "friedhof", "tera_base": "TERA-FRI"},
+    {"contains": "beitrag", "tera_base": "TERA-BEI"},
+    {"contains": "ressourcen", "tera_base": "TERA-RES"},
+    {"contains": "bauhof", "tera_base": "TERA-RES"},
+    {"contains": "gebaeude", "tera_base": "TERA-GEBÄUDE"},
+    {"contains": "miet", "tera_base": "TERA-MIE"},
+    {"contains": "pacht", "tera_base": "TERA-MIE"},
+    {"contains": "vertrag", "tera_base": "TERA-VERTRAG"},
+    {"contains": "liegenschaft", "tera_base": "TERA-LIE"},
+    {"contains": "belegung", "tera_base": "TERA-BEL"},
+    {"contains": "eakte", "tera_base": "TERA-DMS"},
+    {"contains": "teramobil", "tera_base": "TERAmobil"},
+    {"contains": "alkis", "tera_base": "TERA-GEODATENIMPORT"},
+    {"contains": "auskunft", "tera_base": "TERA-EXPERT"}
+  ]
+}

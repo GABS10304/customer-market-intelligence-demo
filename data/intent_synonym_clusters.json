@@ -1,0 +1,11 @@
+{
+  "version": "1.0",
+  "description": "Erweiterbare Synonym-Cluster für Intent/Bedarf. Nach Challenge-Runde neue Terme hier pflegen — ohne Code-Änderung.",
+  "clusters": {
+    "ux_reibung": {
+      "label": "UX-Reibung",
+      "bedarf": "UX-Kritik",
+      "terms": []
+    }
+  }
+}

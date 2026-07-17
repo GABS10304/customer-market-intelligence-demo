@@ -1,0 +1,6 @@
+mapping_id;modul;hotline_tickets;feldbesuche;signale_gesamt;ranking_kunden;ranking_umsatz_eur;erp_umsatz_eur;dominant_intent;top_ticket_routing;top_bedarf;beispiel_hotline;beispiel_feldbesuch;impact_proxy;reach_nutzer;umfrage_antworten;umfrage_avg_nps
+traffic_module;Traffic Module (GeoSuite);2;1;3;42;185000.0;185000.0;How-To;Hotline;Export-Assistent;Export als PDF schlägt fehl — Demo-Musterstadt;Schulung zu neuen Funktionen gewünscht;77700.0;42;1;8.0
+zoning_module;Zoning Module (GeoSuite);1;0;1;28;92000.0;92000.0;Defekt;Hotline;Layer-Sichtbarkeit;Layer verschwindet nach Speichern — Mustergemeinde;;36800.0;28;;
+geoclient_login;GeoClient — Login;1;0;1;0;0.0;0.0;Defekt;Hotline;Login;Anmeldung nach Client-Update nicht möglich — Demo-LK;;1.0;0;1;7.0
+export_module;Export Module (GeoSuite);1;0;1;0;0.0;0.0;Defekt;Hotline;Export;Shape-Export bricht mit Fehlermeldung ab.;;1.0;0;;
+mapapp_demo;MapApp Demo;0;1;1;19;45000.0;45000.0;;;Mobile Nutzung;;Mobile Nutzung im Außendienst ausbauen;8550.0;19;;

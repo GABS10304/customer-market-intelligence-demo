@@ -1,0 +1,86 @@
+{
+  "fingerprint": "demo-anonymized-v2-no-erp",
+  "built_at": "2026-07-17T06:00:00+00:00",
+  "cluster_counts": {
+    "support:30": [
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\Traffic Module", "anzahl": 38},
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\Zoning Module", "anzahl": 22},
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\GeoClient - Login", "anzahl": 15},
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\Export Module", "anzahl": 12}
+    ],
+    "support:10": [
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\Traffic Module", "anzahl": 38},
+      {"quelle": "Support-Tickets", "cluster": "geoSuiteData\\Zoning Module", "anzahl": 22}
+    ],
+    "surveys:30": [
+      {"quelle": "Kundenumfragen", "cluster": "Export", "anzahl": 14},
+      {"quelle": "Kundenumfragen", "cluster": "Login", "anzahl": 9},
+      {"quelle": "Kundenumfragen", "cluster": "Performance", "anzahl": 6}
+    ],
+    "surveys:10": [
+      {"quelle": "Kundenumfragen", "cluster": "Export", "anzahl": 14}
+    ],
+    "field_visits:30": [
+      {"quelle": "Feldbesuche", "cluster": "Traffic Module", "anzahl": 8},
+      {"quelle": "Feldbesuche", "cluster": "MapApp Demo", "anzahl": 5}
+    ],
+    "field_visits:10": [
+      {"quelle": "Feldbesuche", "cluster": "Traffic Module", "anzahl": 8}
+    ]
+  },
+  "source_themes": {
+    "support_tickets_html": {
+      "Export": {"score": 12, "clusters": ["geoSuiteData\\Export Module (12×)"], "samples": ["Export schlägt fehl — Demo-Hinweis Musterstadt"], "quelle": "Support-Tickets"},
+      "Login": {"score": 15, "clusters": ["geoSuiteData\\GeoClient - Login (15×)"], "samples": ["Anmeldung nach Update nicht möglich — Demo"], "quelle": "Support-Tickets"},
+      "Verbindung": {"score": 4, "clusters": [], "samples": [], "quelle": "Support-Tickets"},
+      "Performance": {"score": 3, "clusters": [], "samples": [], "quelle": "Support-Tickets"},
+      "Installation": {"score": 2, "clusters": [], "samples": [], "quelle": "Support-Tickets"},
+      "Import": {"score": 5, "clusters": [], "samples": [], "quelle": "Support-Tickets"}
+    },
+    "survey_freetext_250": {
+      "Export": {"score": 14, "clusters": ["Export (14×)"], "samples": ["Bessere Export-Assistenten wünschenswert — Demo-LK"], "quelle": "Kundenumfragen"},
+      "Login": {"score": 9, "clusters": ["Login (9×)"], "samples": [], "quelle": "Kundenumfragen"},
+      "Performance": {"score": 6, "clusters": ["Performance (6×)"], "samples": [], "quelle": "Kundenumfragen"},
+      "Verbindung": {"score": 0, "clusters": [], "samples": [], "quelle": "Kundenumfragen"},
+      "Installation": {"score": 0, "clusters": [], "samples": [], "quelle": "Kundenumfragen"},
+      "Import": {"score": 0, "clusters": [], "samples": [], "quelle": "Kundenumfragen"}
+    },
+    "field_visits_weihnachtsbesuche": {
+      "Export": {"score": 2, "clusters": [], "samples": [], "quelle": "Feldbesuche"},
+      "Login": {"score": 1, "clusters": [], "samples": [], "quelle": "Feldbesuche"},
+      "Performance": {"score": 3, "clusters": [], "samples": [], "quelle": "Feldbesuche"},
+      "Verbindung": {"score": 0, "clusters": [], "samples": [], "quelle": "Feldbesuche"},
+      "Installation": {"score": 0, "clusters": [], "samples": [], "quelle": "Feldbesuche"},
+      "Import": {"score": 0, "clusters": [], "samples": [], "quelle": "Feldbesuche"}
+    }
+  },
+  "intent_by_module": [
+    {
+      "modul": "Traffic Module",
+      "summe_umsatz": 0,
+      "eintraege": 38,
+      "dominant_intent": "How-To",
+      "top_bedarf": "Export-Assistent",
+      "Defekt": 8,
+      "How-To": 18,
+      "Discovery": 6,
+      "quellen": "Hotline"
+    },
+    {
+      "modul": "Zoning Module",
+      "summe_umsatz": 0,
+      "eintraege": 22,
+      "dominant_intent": "Defekt",
+      "top_bedarf": "Layer-Sichtbarkeit",
+      "Defekt": 10,
+      "How-To": 7,
+      "Discovery": 3,
+      "quellen": "Hotline"
+    }
+  ],
+  "data_coverage": [
+    {"source": "support_tickets_html", "rows": 87, "label": "Support-Tickets"},
+    {"source": "survey_freetext_250", "rows": 29, "label": "Kundenumfragen"},
+    {"source": "field_visits_weihnachtsbesuche", "rows": 13, "label": "Feldbesuche"}
+  ]
+}

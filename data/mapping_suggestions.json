@@ -1,0 +1,943 @@
+{
+  "generated_for": "top_unmapped_hotline_clusters",
+  "suggestions": [
+    {
+      "action": "create",
+      "target_id": "modul_beiträge_er",
+      "label": "Beiträge (er)",
+      "tickets_covered": 30,
+      "entry": {
+        "id": "modul_beiträge_er",
+        "label": "Beiträge (er)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Beiträge (er)"
+        ],
+        "notes": "Bulk-map (30 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Beiträge (er)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_beitragswesen",
+      "label": "beitragswesen",
+      "tickets_covered": 29,
+      "entry": {
+        "id": "modul_beitragswesen",
+        "label": "beitragswesen",
+        "ticket_clusters": [
+          "teraWinData\\beitragswesen"
+        ],
+        "notes": "Bulk-map (29 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "beitragswesen"
+        ],
+        "artikel_contains_any": [
+          "beitrag"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_mietundpachtobjekte",
+      "label": "mietUndPachtobjekte",
+      "tickets_covered": 27,
+      "entry": {
+        "id": "modul_mietundpachtobjekte",
+        "label": "mietUndPachtobjekte",
+        "ticket_clusters": [
+          "teraWinData\\mietUndPachtobjekte"
+        ],
+        "notes": "Bulk-map (27 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "mietUndPachtobjekte"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "tickets_covered": 22,
+      "entry": {
+        "id": "rgz_basic",
+        "label": "RGZ - Basic / Plus",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - Datenexport"
+        ],
+        "notes": "Bulk-map (22 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Datenexport"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "tickets_covered": 20,
+      "entry": {
+        "id": "rgz_basic",
+        "label": "RGZ - Basic / Plus",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - Autor"
+        ],
+        "notes": "Bulk-map (20 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Autor"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_gebaeudemanager",
+      "label": "gebaeudemanager",
+      "tickets_covered": 19,
+      "entry": {
+        "id": "modul_gebaeudemanager",
+        "label": "gebaeudemanager",
+        "ticket_clusters": [
+          "teraWinData\\gebaeudemanager"
+        ],
+        "notes": "Bulk-map (19 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "gebaeudemanager"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_kanal",
+      "label": "Modul Kanal",
+      "tickets_covered": 17,
+      "entry": {
+        "id": "modul_kanal",
+        "label": "Modul Kanal",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Kanal Barthauer (awb)"
+        ],
+        "notes": "Bulk-map (17 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Kanal Barthauer (awb)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_wasser",
+      "label": "Modul Wasser / Wasser Edit",
+      "tickets_covered": 17,
+      "entry": {
+        "id": "modul_wasser",
+        "label": "Modul Wasser / Wasser Edit",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Wasser (wam)"
+        ],
+        "notes": "Bulk-map (17 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Wasser (wam)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "ki_assistenz",
+      "label": "KI / Assistenz & Auswertungen",
+      "tickets_covered": 16,
+      "entry": {
+        "id": "ki_assistenz",
+        "label": "KI / Assistenz & Auswertungen",
+        "ticket_clusters": [
+          "riwaGisData\\KI Funktionen"
+        ],
+        "notes": "Bulk-map (16 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "KI Funktionen"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "landkreis_gis",
+      "label": "Landkreis-GIS (Paketlizenz)",
+      "tickets_covered": 16,
+      "entry": {
+        "id": "landkreis_gis",
+        "label": "Landkreis-GIS (Paketlizenz)",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - externer Nutzer"
+        ],
+        "notes": "Bulk-map (16 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "externer Nutzer"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_auskunftsmoduleexpobjdat",
+      "label": "auskunftsmoduleExpObjDat",
+      "tickets_covered": 14,
+      "entry": {
+        "id": "modul_auskunftsmoduleexpobjdat",
+        "label": "auskunftsmoduleExpObjDat",
+        "ticket_clusters": [
+          "teraWinData\\auskunftsmoduleExpObjDat"
+        ],
+        "notes": "Bulk-map (14 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "auskunftsmoduleExpObjDat"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "tickets_covered": 12,
+      "entry": {
+        "id": "rgz_basic",
+        "label": "RGZ - Basic / Plus",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - Zeichenfunktionen"
+        ],
+        "notes": "Bulk-map (12 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Zeichenfunktionen"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_teramobil",
+      "label": "TeraMobil",
+      "tickets_covered": 10,
+      "entry": {
+        "id": "modul_teramobil",
+        "label": "TeraMobil",
+        "ticket_clusters": [
+          "teraWinData\\TeraMobil"
+        ],
+        "notes": "Bulk-map (10 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "TeraMobil"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_3d",
+      "label": "3D",
+      "tickets_covered": 9,
+      "entry": {
+        "id": "modul_3d",
+        "label": "3D",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - 3D"
+        ],
+        "notes": "Bulk-map (9 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "3D"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 8,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\G2VB"
+        ],
+        "notes": "Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "G2VB"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_spielplatz",
+      "label": "Modul Spielplatz",
+      "tickets_covered": 8,
+      "entry": {
+        "id": "modul_spielplatz",
+        "label": "Modul Spielplatz",
+        "ticket_clusters": [
+          "riwaGisData\\Apps - SpielplatzkontrollApp"
+        ],
+        "notes": "Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "SpielplatzkontrollApp"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "regisafe_eakte",
+      "label": "RegiSafe / E-Akte",
+      "tickets_covered": 8,
+      "entry": {
+        "id": "regisafe_eakte",
+        "label": "RegiSafe / E-Akte",
+        "ticket_clusters": [
+          "riwaGisData\\eAkte"
+        ],
+        "notes": "Bulk-map (8 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "eAkte"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_belegungsplan",
+      "label": "belegungsplan",
+      "tickets_covered": 8,
+      "entry": {
+        "id": "modul_belegungsplan",
+        "label": "belegungsplan",
+        "ticket_clusters": [
+          "teraWinData\\belegungsplan"
+        ],
+        "notes": "Bulk-map (8 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "belegungsplan"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_vertragsmanager",
+      "label": "vertragsmanager",
+      "tickets_covered": 8,
+      "entry": {
+        "id": "modul_vertragsmanager",
+        "label": "vertragsmanager",
+        "ticket_clusters": [
+          "teraWinData\\vertragsmanager"
+        ],
+        "notes": "Bulk-map (8 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "vertragsmanager"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_bauav",
+      "label": "Modul Bauantragsverwaltung",
+      "tickets_covered": 7,
+      "entry": {
+        "id": "modul_bauav",
+        "label": "Modul Bauantragsverwaltung",
+        "ticket_clusters": [
+          "otsBauData\\digitalerBauantrag (eAV - Importer)"
+        ],
+        "notes": "Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Importer)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 7,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\onlineBeteiligungen"
+        ],
+        "notes": "Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "onlineBeteiligungen"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_liegenschaftsverwaltung",
+      "label": "liegenschaftsverwaltung",
+      "tickets_covered": 7,
+      "entry": {
+        "id": "modul_liegenschaftsverwaltung",
+        "label": "liegenschaftsverwaltung",
+        "ticket_clusters": [
+          "teraWinData\\liegenschaftsverwaltung"
+        ],
+        "notes": "Bulk-map (7 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "liegenschaftsverwaltung"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "regisafe_eakte",
+      "label": "RegiSafe / E-Akte",
+      "tickets_covered": 7,
+      "entry": {
+        "id": "regisafe_eakte",
+        "label": "RegiSafe / E-Akte",
+        "ticket_clusters": [
+          "teraWinData\\TeraEAkte"
+        ],
+        "notes": "Bulk-map (7 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "TeraEAkte"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_passt_in_keine_andere_kategorie",
+      "label": "passt in keine andere Kategorie",
+      "tickets_covered": 6,
+      "entry": {
+        "id": "modul_passt_in_keine_andere_kategorie",
+        "label": "passt in keine andere Kategorie",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - nicht aufgelistet"
+        ],
+        "notes": "Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "nicht aufgelistet"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_spielplatz",
+      "label": "Modul Spielplatz",
+      "tickets_covered": 6,
+      "entry": {
+        "id": "modul_spielplatz",
+        "label": "Modul Spielplatz",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Spielplatz (sp)"
+        ],
+        "notes": "Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Spielplatz (sp)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_wegeinfrastruktur_ww",
+      "label": "Wegeinfrastruktur (ww)",
+      "tickets_covered": 6,
+      "entry": {
+        "id": "modul_wegeinfrastruktur_ww",
+        "label": "Wegeinfrastruktur (ww)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Wegeinfrastruktur (ww)"
+        ],
+        "notes": "Bulk-map (6 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Wegeinfrastruktur (ww)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_bauav",
+      "label": "Modul Bauantragsverwaltung",
+      "tickets_covered": 6,
+      "entry": {
+        "id": "modul_bauav",
+        "label": "Modul Bauantragsverwaltung",
+        "ticket_clusters": [
+          "BauAV"
+        ],
+        "notes": "Bulk-map (6 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "BauAV"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_finanz",
+      "label": "Finanzmodul",
+      "tickets_covered": 5,
+      "entry": {
+        "id": "modul_finanz",
+        "label": "Finanzmodul",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Finanzen (fi)"
+        ],
+        "notes": "Bulk-map (5 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Finanzen (fi)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_vermessungsdaten",
+      "label": "Modul Vermessungsdaten",
+      "tickets_covered": 5,
+      "entry": {
+        "id": "modul_vermessungsdaten",
+        "label": "Modul Vermessungsdaten",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Vermessungsdaten (vm)"
+        ],
+        "notes": "Bulk-map (5 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Vermessungsdaten (vm)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 4,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\Dokumentenverwaltung"
+        ],
+        "notes": "Bulk-map (4 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Dokumentenverwaltung"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_strassen",
+      "label": "Modul Straßen-/Bestandsverzeichnis",
+      "tickets_covered": 4,
+      "entry": {
+        "id": "modul_strassen",
+        "label": "Modul Straßen-/Bestandsverzeichnis",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Straßenkontrolle (stk)"
+        ],
+        "notes": "Bulk-map (4 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Straßenkontrolle (stk)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_adressabgleichfisewobaybis",
+      "label": "adressabgleichFisEwoBaybis",
+      "tickets_covered": 4,
+      "entry": {
+        "id": "modul_adressabgleichfisewobaybis",
+        "label": "adressabgleichFisEwoBaybis",
+        "ticket_clusters": [
+          "teraWinData\\adressabgleichFisEwoBaybis"
+        ],
+        "notes": "Bulk-map (4 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "adressabgleichFisEwoBaybis"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "regisafe_eakte",
+      "label": "RegiSafe / E-Akte",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "regisafe_eakte",
+        "label": "RegiSafe / E-Akte",
+        "ticket_clusters": [
+          "otsBauData\\eAkte"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "eAkte"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\fragenZuVertragLeistungenAngebot"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "fragenZuVertragLeistungenAngebot"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\Schnittstellen"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Schnittstellen"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "kanal_app",
+      "label": "Kanal-App",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "kanal_app",
+        "label": "Kanal-App",
+        "ticket_clusters": [
+          "riwaGisData\\Apps - SchachtkontrollApp"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "SchachtkontrollApp"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_kanal",
+      "label": "Modul Kanal",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "modul_kanal",
+        "label": "Modul Kanal",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Kanal CWSM (awc)"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Kanal CWSM (awc)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "tickets_covered": 3,
+      "entry": {
+        "id": "rgz_basic",
+        "label": "RGZ - Basic / Plus",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - Serverfehler"
+        ],
+        "notes": "Bulk-map (3 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Serverfehler"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\installationUndTechnik"
+        ],
+        "notes": "Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "installationUndTechnik"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "landkreis_gis",
+      "label": "Landkreis-GIS (Paketlizenz)",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "landkreis_gis",
+        "label": "Landkreis-GIS (Paketlizenz)",
+        "ticket_clusters": [
+          "riwaGisData\\Datenabgabe - externer Nutzer"
+        ],
+        "notes": "Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "externer Nutzer"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_brücken_br",
+      "label": "Brücken (br)",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "modul_brücken_br",
+        "label": "Brücken (br)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Brücken (br)"
+        ],
+        "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Brücken (br)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "geonotizen",
+      "label": "Geonotizen",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "geonotizen",
+        "label": "Geonotizen",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Geonotizen (gn)"
+        ],
+        "notes": "Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Geonotizen (gn)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_vermieten_verpachten_vp",
+      "label": "Vermieten Verpachten (vp)",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "modul_vermieten_verpachten_vp",
+        "label": "Vermieten Verpachten (vp)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Vermieten Verpachten (vp)"
+        ],
+        "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Vermieten Verpachten (vp)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_ppm_hardware",
+      "label": "PPM Hardware",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "modul_ppm_hardware",
+        "label": "PPM Hardware",
+        "ticket_clusters": [
+          "riwaGisData\\PPM Hardware"
+        ],
+        "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "PPM Hardware"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "rgz_basic",
+      "label": "RGZ - Basic / Plus",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "rgz_basic",
+        "label": "RGZ - Basic / Plus",
+        "ticket_clusters": [
+          "riwaGisData\\RGZ Client - Aktivierungscode"
+        ],
+        "notes": "Bulk-map (2 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Aktivierungscode"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_projektplan_umstieg",
+      "label": "Projektplan Umstieg",
+      "tickets_covered": 2,
+      "entry": {
+        "id": "modul_projektplan_umstieg",
+        "label": "Projektplan Umstieg",
+        "ticket_clusters": [
+          "Projektplan Umstieg"
+        ],
+        "notes": "Bulk-map (2 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Projektplan Umstieg"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "riwa_go_planauskunft",
+      "label": "RIWA-GO Bau Planauskunft",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "riwa_go_planauskunft",
+        "label": "RIWA-GO Bau Planauskunft",
+        "ticket_clusters": [
+          "otsBauData\\edialogdesigner"
+        ],
+        "notes": "Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "edialogdesigner"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_appkit",
+      "label": "AppKIT",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_appkit",
+        "label": "AppKIT",
+        "ticket_clusters": [
+          "riwaGisData\\Apps - AppKIT"
+        ],
+        "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "AppKIT"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_straßenkontrollapp",
+      "label": "StraßenkontrollApp",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_straßenkontrollapp",
+        "label": "StraßenkontrollApp",
+        "ticket_clusters": [
+          "riwaGisData\\Apps - StraßenkontrollApp"
+        ],
+        "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "StraßenkontrollApp"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_bebauungsplaene",
+      "label": "Modul Bebauungspläne",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_bebauungsplaene",
+        "label": "Modul Bebauungspläne",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Flächennutzungsplan (fnp)"
+        ],
+        "notes": "Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Flächennutzungsplan (fnp)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_gruenflaechen",
+      "label": "Modul Grünflächen",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_gruenflaechen",
+        "label": "Modul Grünflächen",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Grünflächen (gf)"
+        ],
+        "notes": "Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Grünflächen (gf)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_hausnummernverzeichnis_hv",
+      "label": "Hausnummernverzeichnis (hv)",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_hausnummernverzeichnis_hv",
+        "label": "Hausnummernverzeichnis (hv)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Hausnummernverzeichnis (hv)"
+        ],
+        "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Hausnummernverzeichnis (hv)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_straßen_und_winterdienst_wd",
+      "label": "Straßen- und Winterdienst (wd)",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_straßen_und_winterdienst_wd",
+        "label": "Straßen- und Winterdienst (wd)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Straßen- und Winterdienst (wd)"
+        ],
+        "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Straßen- und Winterdienst (wd)"
+        ]
+      }
+    },
+    {
+      "action": "create",
+      "target_id": "modul_ökokonto_ok",
+      "label": "Ökokonto (ok)",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_ökokonto_ok",
+        "label": "Ökokonto (ok)",
+        "ticket_clusters": [
+          "riwaGisData\\Modul - Ökokonto (ok)"
+        ],
+        "notes": "Bulk-map (1 Tickets) — neuer Seed-Eintrag",
+        "cluster_aliases": [
+          "Ökokonto (ok)"
+        ]
+      }
+    },
+    {
+      "action": "extend",
+      "target_id": "modul_vermessungsdaten",
+      "label": "Modul Vermessungsdaten",
+      "tickets_covered": 1,
+      "entry": {
+        "id": "modul_vermessungsdaten",
+        "label": "Modul Vermessungsdaten",
+        "ticket_clusters": [
+          "Vermessungsdaten/-App"
+        ],
+        "notes": "Bulk-map (1 Tickets) — Cluster an bestehenden Eintrag",
+        "cluster_aliases": [
+          "Vermessungsdaten/-App"
+        ]
+      }
+    }
+  ]
+}

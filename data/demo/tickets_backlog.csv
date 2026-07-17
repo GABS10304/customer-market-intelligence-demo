@@ -1,0 +1,6 @@
+Ordner / Modul;Quelle (Dateiname);ticket_id;Kategorie;Original-Wortlaut (Freitext);Quelle;source_file;bereich;processed_at
+geoSuiteData\Traffic Module;demo_ticket_001.html;DEMO-001;Hotline-Ticket;Export als PDF schlägt fehl — Demo-Musterstadt;Hotline HTML V1;demo/tickets/demo_ticket_001.html;geoSuiteData;2026-07-17T06:00:00+00:00
+geoSuiteData\Traffic Module;demo_ticket_002.html;DEMO-002;Hotline-Ticket;Wie kann ich Fahrspuren digitalisieren? Schulung gewünscht.;Hotline HTML V1;demo/tickets/demo_ticket_002.html;geoSuiteData;2026-07-17T06:00:00+00:00
+geoSuiteData\GeoClient - Login;demo_ticket_003.html;DEMO-003;Hotline-Ticket;Anmeldung nach Client-Update nicht möglich — Demo-LK;Hotline HTML V1;demo/tickets/demo_ticket_003.html;geoSuiteData;2026-07-17T06:00:00+00:00
+geoSuiteData\Zoning Module;demo_ticket_004.html;DEMO-004;Hotline-Ticket;Layer verschwindet nach Speichern — Mustergemeinde;Hotline HTML V1;demo/tickets/demo_ticket_004.html;geoSuiteData;2026-07-17T06:00:00+00:00
+geoSuiteData\Export Module;demo_ticket_005.html;DEMO-005;Hotline-Ticket;Shape-Export bricht mit Fehlermeldung ab.;Hotline HTML V1;demo/tickets/demo_ticket_005.html;geoSuiteData;2026-07-17T06:00:00+00:00

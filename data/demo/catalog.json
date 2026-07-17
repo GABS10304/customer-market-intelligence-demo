@@ -1,0 +1,52 @@
+{
+  "version": "2.1-demo",
+  "updated_at": "2026-07-17T09:08:21.384455+00:00",
+  "sources": {
+    "support_tickets_html": {
+      "technical_name": "support_tickets_html",
+      "display_name": "Support-Tickets (Demo)",
+      "status": "active",
+      "last_updated": "2026-07-17T06:00:00+00:00",
+      "columns_detected": [
+        "Ordner___Modul",
+        "Ordner / Modul",
+        "Modul"
+      ],
+      "mapping_status": "confirmed",
+      "bq_table": null,
+      "source_type": "builtin",
+      "description": "Synthetische Demo-Quelle: Support-Tickets (Demo)"
+    },
+    "survey_freetext_250": {
+      "technical_name": "survey_freetext_250",
+      "display_name": "Kundenumfragen (Demo)",
+      "status": "active",
+      "last_updated": "2026-07-17T06:00:00+00:00",
+      "columns_detected": [
+        "Kategorie",
+        "Category",
+        "Problem_Kategorie"
+      ],
+      "mapping_status": "confirmed",
+      "bq_table": null,
+      "source_type": "builtin",
+      "description": "Synthetische Demo-Quelle: Kundenumfragen (Demo)"
+    },
+    "field_visits_weihnachtsbesuche": {
+      "technical_name": "field_visits_weihnachtsbesuche",
+      "display_name": "Feldbesuche (Demo)",
+      "status": "active",
+      "last_updated": "2026-07-17T06:00:00+00:00",
+      "columns_detected": [
+        "Modul/App/Verfahren",
+        "Modul_App_Verfahren",
+        "Modul",
+        "Verfahren"
+      ],
+      "mapping_status": "confirmed",
+      "bq_table": null,
+      "source_type": "builtin",
+      "description": "Synthetische Demo-Quelle: Feldbesuche (Demo)"
+    }
+  }
+}
